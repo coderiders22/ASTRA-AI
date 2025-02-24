@@ -778,6 +778,47 @@
             .weather-card .weather-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
             .weather-card .parameter-card { padding: 1.2rem; border-radius: 16px; }
         }
+        .footer-copyright {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #b0c4de;
+            text-shadow: 0 0 3px rgba(0, 234, 255, 0.2);
+            text-align: center;
+        }
+        .footer {
+            background: rgba(26, 26, 54, 0.95);
+            padding: 2rem 2.5rem;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0 -10px 30px var(--shadow-dark);
+            backdrop-filter: blur(15px);
+            margin-top: 2rem;
+            z-index: 2;
+            position: relative;
+            text-align: center;
+            border-top: 2px solid var(--neon-cyan);
+        }
+
+@media (max-width: 480px) {
+.footer {
+                padding: 1.5rem 1rem;
+                margin-top: 2rem;
+            }
+.footer-copyright {
+                font-size: 0.8rem;
+                margin-top: 1rem;
+            }
+        }
+@media (min-width: 481px) and (max-width: 768px) {
+.footer {
+                padding: 1.8rem 1.5rem;
+            }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+            .footer {
+                padding: 2rem;
+            }
+}
     </style>
 </head>
 <body>
@@ -862,7 +903,9 @@
 
         <div class="card-container" id="cardContainer"></div>
     </div>
-
+    <div class="footer-copyright">
+        &copy; 2025 ASTRA AI. Designed by Manav Rai. All rights reserved.
+    </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
@@ -1404,6 +1447,8 @@
         </div>
     `;
 }
+
     </script>
+
 </body>
 </html>

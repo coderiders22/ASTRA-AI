@@ -7,6 +7,12 @@ ASTRA AI is an advanced AI-powered voice assistant that provides real-time weath
 ## 🚀 Live Application Demo
 [**Explore ASTRA AI**](https://astra.koyeb.app/)
 
+> [!NOTE]
+> ## Syncloop API Integration 🔌
+
+The Syncloop API, which provides the data for this application, is included in the repository. You can download the API package by clicking the link below:
+
+[Download Syncloop API Package](https://github.com/coderiders22/ASTRA-AI/tree/85f71e9d570dc2571287c306db626e4d5f63b8f9/Syncloop%20API%20)
 ---
 
 ## 📌 Features

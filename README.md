@@ -5,7 +5,7 @@
 ASTRA AI is an advanced AI-powered voice assistant that provides real-time weather, news, stock prices, and web search results using **custom APIs hosted on Syncloop** and deployed on **Koyeb**. With voice commands, text-based searches, and an interactive map, ASTRA AI ensures a futuristic and user-friendly experience.
 
 ## 🚀 Live Application Demo
-[**Explore ASTRA AI**](https://astra-ai.koyeb.app/)
+[**Explore ASTRA AI**](https://astra.koyeb.app/)
 
 ---
 

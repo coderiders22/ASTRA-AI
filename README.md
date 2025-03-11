@@ -64,7 +64,7 @@ node server.js
 
 ### **Open in Browser** 🌐
 ```plaintext
-http://localhost:5001
+http://localhost:8000
 ```
 
 ### **Add Your Syncloop API Token** 🔑

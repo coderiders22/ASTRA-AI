@@ -4,7 +4,7 @@ const axios = require('axios');
 const path = require('path'); // Added for static file serving
 
 const app = express();
-const port = 5001;
+const port = 8000;
 
 // Middleware
 app.use(cors()); // Enable CORS for all origins
@@ -19,7 +19,7 @@ const BASE_URLS = {
     SEARCH: 'https://cloud.syncloop.com/tenant/1737057817390/packages.PEC_training.AI.customsearchapi.main'
 };
 
-const BEARER_TOKEN = "PYM64C0PLJpZWucGYDZ8S70c3K87blW/kSaCC39Fcw1i6wsmwl5Tug2Hm6DziTr0mtCYEmVDxcLmqr3c/Lxpo6WQhcEj9XRR+sS5s9uKFbFL3AkyC6UI7+gpPHNjguEQbhXaHGS2KFSjGXpJfzL0qI275ri0LcTAC6e628ukcT3tAG+vxC3wjfXFCnKB8HPpmnN2NmF6QqM3ylQCgz2AnB+ZOnZ0Rpi1tFrByynJaXOgOWvd69EqRRG4ljy7au5jCNe+JDFHRRVh5pfF6q/Hgsymu5Jvr1GtcKWJePtysPjPkCBQn738qaYcw5IunFeasT7EzjzB2AhYe2ZTl65jt1kayFLebYMcuMFNVF3WmKZn6AtX+UsYZ95z94I8KoEOH6G00XcJfJd3zaPfzyMcRF4tkWpec5OrIR0lnG1n+5EP2U0SQfEEFRVCRuVndgeGexi+YftOxGTM790X5S9yv6W1HKEjBavx9nfBGLS6oBkF5hyPWGZFYY1b1/lKTRfju78GvgYxKgl1Xm/gI9nSe2NeICNx27lUo6rYmUKcO4qSix8wJyUyEuSSzc1X5DI6tfThJLQIh7tISCsW+fO1bNaLCPjxLzMBdkrhMb8ynkzdBwT1dzA0tAITcmAUHCodnC0Bq2zEhARjG9qxUXRYmAGW97QikHr+rWzDcfe6/rM=";
+const BEARER_TOKEN = "e6rKCA/p3qDXsXUk4Zic0JkOgzBhp8qKFL58qrRPck/oK9714AuGNszT149DT+4KM+TEbD58cvXi2wvU3fm9ybITfXosDd0umMYOIY3pxZt510EPihm1Qu2kXbRQKvIjTdMiqheqDHyrI5vY1rrZgpfC83qh4uHzA59lXu+Gk09SA6ndC6/d6Ls507eqtg9fyNENKHaZJTOvYww9M9iE+P4g7ZWdxR8rO3xCuWXqrDzI/7QzkRwp47txvY0BuYRQUNSdyuBag6ZsipywguFQyO2qe9V8XeoCeJPSrbefe+h83eXEvsGT+kNmncrbItKTPOzfWGDmxBqPzvwKV06hvG7E7YGtoV6G40504rYfE9BZMYZfIuYMZ1gJyyiLJWVU3dfMEgp3DHnOvPziJr22tQLZMgNTHd5+/g+ROQr5oin9lIaQjaAOK5Pi8BySdGMDmWXsmPxCz1EVgU/20VefaUolsyt5GCfGBDRQ7TTtBZK4oKEix8SjBctL9VrAiKs8nW8JnrLC/o+3Uj7RTBi2rRq3ft+AUX5GHyi+LnBrkyeNKlyiWLeSumxFDGqJ5rk0XYFGXdUUclfL3ft0lg/vGeSdfrqjRZDKKAxaEffXHr5NshdZpxlbMr2OeaXcr2+snsIQbHq/GSRjcp3CQW062G6Z4iqmHZU23jx4zklTcV4=";
 
 // Enhanced Reverse Geocoding Function
 async function getReverseGeocode(lat, lon) {

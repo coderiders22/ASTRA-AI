@@ -118,12 +118,7 @@ Contributions are welcome! Feel free to **fork** the repository, make improvemen
 
 ---
 
-## 📝 License
-This project is **open-source** and available under the **MIT License**.
-
----
-
-📌 **For Source Code & Contributions:** [GitHub Repository](https://github.com/coderiders22/ASTRA-AI)
+📌 **For Source Code :** [GitHub Repository](https://github.com/coderiders22/ASTRA-AI)
 
 ---
 
